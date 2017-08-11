@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>IMDB</title>
+  </head>
+  <body>
+    <h1>Movie Rating</h1>
+    <table border=1 cellpadding=5>
+      <tr>
+        <th>Login</th>
+        <th>User name</th>
+        <th>Permission</th>
+        <th>Role ($ = built-in role)</th>
+      </tr>
+      <tr>
+        <td><a href="/Movies">Guest</a></td>
+        <td></td>
+        <td>Guest</td>
+        <td>$unauthenticated, $everyone</td>
+      </tr>
+      <tr>
+        <td>
+          <form action="/Movies" method="post">
+            <input type="text" name="email" value="john@doe.com" placeholder="Email"><br>
+            <input type="password" name="password" value="opensesame" placeholder="Password"><br>
+            <input type="submit" value="Login">
+          </form>
+        </td>
+        <td>John</td>
+        <td>Manager: C R U D</td>
+        <td>MANAGER</td>
+      </tr>
+      <tr>
+        <td>
+          <form action="/Movies" method="post">
+            <input type="text" name="email" value="jane@doe.com" placeholder="Email"><br>
+            <input type="password" name="password" value="opensesame" placeholder="Password"><br>
+            <input type="submit" value="Login">
+          </form>
+        </td>
+        <td>Jane</td>
+        <td>Team leader: C R U</td>
+        <td>TEAMLEADER</td>
+      </tr>
+      <tr>
+        <td>
+          <form action="/Movies" method="post">
+            <input type="text" name="email" value="bob@projects.com" placeholder="Email"><br>
+            <input type="password" name="password" value="opensesame" placeholder="Password"><br>
+            <input type="submit" value="Login">
+          </form>
+        </td>
+        <td>Bob</td>
+        <td>Staff: C R</td>
+        <td>FLOORSTAFF</td>
+      </tr>
+   
+        <tr>
+          <td colspan=6>
+              <span style="color:red">Login failed, please try again</span>
+          </td>
+        </tr>
+      
+    </table>
+  </body>
+</html>

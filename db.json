@@ -1,0 +1,54 @@
+{
+  "ids": {
+    "User": 5,
+    "AccessToken": 532,
+    "ACL": 1,
+    "RoleMapping": 6,
+    "Role": 5,
+    "Movie": 40,
+    "Rating": 7
+  },
+  "models": {
+    "User": {
+      "1": "{\"username\":\"admin\",\"password\":\"$2a$10$sayyJKgr7jg3B4Ivri48/eDm8qBAWIT48OJItW86P50mL13AdL8ay\",\"email\":\"admin@axia.com\",\"id\":1,\"verificationToken\":\"ed2765ee7dfb2a6507d7ce253db3174cb49bd77cd9e4c9ce3dee926812754aaf0f233622157e29575a81659cf36efaf6fbd22020f83ebc09184135ebcb0dd7e2\"}",
+      "2": "{\"username\":\"John Doe\",\"password\":\"$2a$10$HK8UhAShoq8/guWxc.iMzudnKF0GOmVbfEHH4daepYY5caQv52oKq\",\"email\":\"john@axia.com\",\"id\":2}",
+      "3": "{\"username\":\"Jan Doe\",\"password\":\"$2a$10$DJEh/z8nrDrYgVeADrWSMeB3dpdhx1wIQAlslG7GFRF0AUOr.weIW\",\"email\":\"jan@axia.com\",\"id\":3}",
+      "4": "{\"username\":\"Bob Doe\",\"password\":\"$2a$10$WyDY4jxOlYWLbfc6RiU/Z.iwsaokSJFbILUcS9IfCKXRn7CwfQZ7K\",\"email\":\"bob@axia.com\",\"id\":4}"
+    },
+    "AccessToken": {
+      "MMsYdadhNG7VlBxHNKuIANd68aA2efavD811Ge5lOfPNBupMLMlcBBFv2wiuT4A0": "{\"id\":\"MMsYdadhNG7VlBxHNKuIANd68aA2efavD811Ge5lOfPNBupMLMlcBBFv2wiuT4A0\",\"ttl\":1209600,\"created\":\"2017-08-11T18:01:02.919Z\",\"userId\":2}",
+      "0cuLBdgJ7W9JP9gnaxecdY8ITm1Bo4hJeRtarMZdzdD1hQ0qkYckumh1YiByMhwV": "{\"id\":\"0cuLBdgJ7W9JP9gnaxecdY8ITm1Bo4hJeRtarMZdzdD1hQ0qkYckumh1YiByMhwV\",\"ttl\":1209600,\"created\":\"2017-08-11T18:01:54.381Z\",\"userId\":1}",
+      "jrKyC3nMQ4CD1F0TtuEUPss2sMMFXqQnPb8NHY99M8UTJ7cfN8RvPYxqBwqPd4hy": "{\"id\":\"jrKyC3nMQ4CD1F0TtuEUPss2sMMFXqQnPb8NHY99M8UTJ7cfN8RvPYxqBwqPd4hy\",\"ttl\":1209600,\"created\":\"2017-08-11T18:07:20.688Z\",\"userId\":4}",
+      "TEj6GLFHK2zurBDfMFD21ZiqnsiMbcbWc9jKLJgpbcXMXq80HJwvI19ZOwN7G4JT": "{\"id\":\"TEj6GLFHK2zurBDfMFD21ZiqnsiMbcbWc9jKLJgpbcXMXq80HJwvI19ZOwN7G4JT\",\"ttl\":1209600,\"created\":\"2017-08-11T18:10:58.158Z\",\"userId\":4}"
+    },
+    "ACL": {},
+    "RoleMapping": {
+      "1": "{\"principalType\":\"User\",\"principalId\":\"2\",\"roleId\":1,\"id\":1}",
+      "2": "{\"principalType\":\"User\",\"principalId\":\"3\",\"roleId\":2,\"id\":2}",
+      "3": "{\"principalType\":\"User\",\"principalId\":\"4\",\"roleId\":3,\"id\":3}",
+      "4": "{\"principalType\":\"User\",\"principalId\":\"1\",\"roleId\":4,\"id\":4}",
+      "5": "{\"principalId\":\"1\",\"printcipalType\":\"User\",\"id\":5}"
+    },
+    "Role": {
+      "1": "{\"name\":\"MANAGER\",\"description\":\"Manage movie record\",\"created\":\"2017-08-08T11:53:09.185Z\",\"modified\":\"2017-08-08T11:53:09.185Z\",\"id\":1}",
+      "2": "{\"name\":\"TEAMLEADER\",\"description\":\"Team Leader\",\"created\":\"2017-08-08T11:54:27.634Z\",\"modified\":\"2017-08-08T11:54:27.634Z\",\"id\":2}",
+      "3": "{\"name\":\"FLOORSTAFF\",\"description\":\"staff\",\"created\":\"2017-08-08T11:54:55.083Z\",\"modified\":\"2017-08-08T11:54:55.083Z\",\"id\":3}",
+      "4": "{\"name\":\"Admin\",\"description\":\"Get all permission\",\"created\":\"2017-08-08T13:22:53.211Z\",\"modified\":\"2017-08-08T13:22:53.211Z\",\"id\":4}"
+    },
+    "Movie": {
+      "5": "{\"title\":\" The Shawshank Redemption\",\"yearReleased\":1984,\"ratingId\":5,\"created_at\":\"2017-08-11T03:03:17.439Z\",\"updated_at\":\"2017-08-11T03:03:17.439Z\",\"id\":5,\"modified\":\"2017-08-11T17:45:34.481Z\"}",
+      "6": "{\"title\":\" The Godfather\",\"yearReleased\":1972,\"ratingId\":5,\"created_at\":\"2017-08-11T05:33:44.716Z\",\"updated_at\":\"2017-08-11T05:33:44.716Z\",\"id\":6}",
+      "29": "{\"title\":\"The Godfather: Part II\",\"yearReleased\":1974,\"ratingId\":4,\"id\":29,\"yearRelease\":\"19847\"}",
+      "30": "{\"title\":\" The Dark Knight\",\"yearReleased\":2008,\"ratingId\":3,\"id\":30}",
+      "32": "{\"title\":\"12 Angry Men\",\"yearReleased\":1957,\"ratingId\":2,\"id\":32,\"modified\":\"2017-08-11T17:53:29.954Z\"}",
+      "38": "{\"title\":\"Schindler's List\",\"yearReleased\":1993,\"ratingId\":5,\"created\":\"2017-08-11T17:53:50.234Z\",\"modified\":\"2017-08-11T17:53:50.234Z\",\"id\":38}"
+    },
+    "Rating": {
+      "1": "{\"title\":\"G\",\"created_at\":\"2017-08-08T10:43:07.136Z\",\"updated_at\":\"2017-08-08T10:43:07.136Z\",\"id\":1}",
+      "2": "{\"title\":\"PG\",\"created_at\":\"2017-08-08T10:43:07.136Z\",\"updated_at\":\"2017-08-08T10:43:07.136Z\",\"id\":2}",
+      "3": "{\"title\":\"M\",\"created_at\":\"2017-08-08T10:44:23.327Z\",\"updated_at\":\"2017-08-08T10:44:23.327Z\",\"id\":3}",
+      "4": "{\"title\":\"MA\",\"created_at\":\"2017-08-08T10:44:45.809Z\",\"updated_at\":\"2017-08-08T10:44:45.809Z\",\"id\":4}",
+      "5": "{\"title\":\"R\",\"created_at\":\"2017-08-08T10:45:01.364Z\",\"updated_at\":\"2017-08-08T10:45:01.364Z\",\"id\":5}"
+    }
+  }
+}
