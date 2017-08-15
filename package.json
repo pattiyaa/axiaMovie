@@ -7,7 +7,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "start": "npm run de",
+    "start": "npm run dev",
     "build": "webpack -d && cp client/index.html client/public/dist/index.html && webpack-dev-server --content-base client/ --inline  --hot",
     "build:prod": "webpack -p && cp client/index.html client/public/dist/index.html",
     "posttest": "npm run lint && nsp check",
